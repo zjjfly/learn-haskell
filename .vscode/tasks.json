@@ -1,0 +1,63 @@
+{
+  // atuomatically created by phoityne-vscode
+  "version": "2.0.0",
+  "runner": "terminal",
+  "windows": {
+    "command": "cmd",
+    "args": [
+      "/c"
+    ]
+  },
+  "linux": {
+    "command": "sh",
+    "args": [
+      "-c"
+    ]
+  },
+  "osx": {
+    "command": "sh",
+    "args": [
+      "-c"
+    ]
+  },
+  "tasks": [
+    {
+      "label": "stack build",
+      "args": [
+        "echo START_STACK_BUILD && cd ${workspaceRoot} && stack build && echo END_STACK_BUILD "
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "stack clean & build",
+      "args": [
+        "echo START_STACK_CLEAN_AND_BUILD && cd ${workspaceRoot} && stack clean && stack build && echo END_STACK_CLEAN_AND_BUILD "
+      ],
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "stack test",
+      "args": [
+        "echo START_STACK_TEST && cd ${workspaceRoot} && stack test && echo END_STACK_TEST "
+      ],
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "stack watch",
+      "args": [
+        "echo START_STACK_WATCH && cd ${workspaceRoot} && stack build --file-watch --test --no-run-tests  && echo END_STACK_WATCH "
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "stack repl",
+      "args": [
+        "stack repl ${file}"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

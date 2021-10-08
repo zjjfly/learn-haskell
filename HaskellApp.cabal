@@ -1,0 +1,54 @@
+name:                HaskellApp
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/githubuser/HaskellApp#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2017 Author name here
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  --如果source文件不是放在根目录的,需要告诉cabal它们的位置
+  hs-source-dirs:      src
+  --暴露给其他工厂的module
+  exposed-modules:     Lib
+                      ,Ch02.Function
+                      ,Ch03.BasicType
+                      ,Ch04.Case
+                      ,Ch05.Recursion
+                      ,Ch06.Lambda
+                      ,Ch07.Modules
+  --内部的模块
+  -- other-modules:
+  build-depends:       base >= 4.7 && < 5
+                      ,containers >= 0.5.7.1
+  default-language:    Haskell2010
+
+ --executable或library的header会跟一个应用名,中间不需要冒号分隔
+executable HaskellApp-exe
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , HaskellApp
+  default-language:    Haskell2010
+
+test-suite HaskellApp-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test
+  main-is:             Spec.hs
+  build-depends:       base
+                     , hspec >= 2.4.4
+                     , HaskellApp
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/githubuser/HaskellApp

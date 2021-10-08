@@ -1,0 +1,194 @@
+2018-03-10 10:42:19 [ThreadId 11] ERROR phoityne - ghci launch error. <file descriptor: 61>: hPutChar: resource vanished (Broken pipe)
+
+2018-03-10 10:42:19 [ThreadId 11] ERROR phoityne - [disconnectRequestHandler] ghci not started.
+2018-03-10 10:46:49 [ThreadId 11] ERROR phoityne - 
+  New hackage module has been released.
+  `stack update` and install new phoityen-vscode.
+ 
+2018-03-10 10:47:32 [ThreadId 11] ERROR phoityne - "error: \8226 Variable not in scope: it \8226 Perhaps you meant \8216id\8217 (imported from Test.Hspec.Discover)"
+2018-03-10 10:47:35 [ThreadId 11] ERROR phoityne - "error: lexical error in string/character literal at end of input"
+2018-03-10 10:47:36 [ThreadId 11] ERROR phoityne - "error: Variable not in scope: shouldBe"
+2018-03-10 10:47:37 [ThreadId 11] ERROR phoityne - "error: Variable not in scope: x"
+2018-03-10 10:47:39 [ThreadId 11] ERROR phoityne - "error: lexical error in string/character literal at end of input"
+2018-03-10 10:47:40 [ThreadId 11] ERROR phoityne - "error: \8226 Syntax error on 'a Perhaps you intended to use TemplateHaskell or TemplateHaskellQuotes \8226 In the Template Haskell quotation 'a"
+2018-03-10 10:47:41 [ThreadId 11] ERROR phoityne - "error: Variable not in scope: x"
+2018-03-10 10:47:46 [ThreadId 11] ERROR phoityne - "error: Variable not in scope: x"
+2018-03-10 10:47:56 [ThreadId 11] ERROR phoityne - "error: Variable not in scope: charFromInt"
+2018-03-10 10:48:00 [ThreadId 11] ERROR phoityne - "error: \8226 Variable not in scope: list \8226 Perhaps you meant \8216last\8217 (imported from Test.Hspec.Discover)"
+2018-03-10 10:48:19 [ThreadId 11] ERROR phoityne - "error: lexical error in string/character literal at end of input"
+2018-03-10 10:48:32 [ThreadId 11] ERROR phoityne - "error: \8226 Variable not in scope: reverse2 \8226 Perhaps you meant \8216reverse\8217 (imported from Test.Hspec.Discover)"
+2018-03-10 10:49:34 [ThreadId 11] ERROR phoityne - 
+  New hackage module has been released.
+  `stack update` and install new phoityen-vscode.
+ 
+2018-03-10 10:49:47 [ThreadId 11] ERROR phoityne - "error: Variable not in scope: shouldBe"
+2018-03-10 10:49:50 [ThreadId 11] ERROR phoityne - "error: \8226 Variable not in scope: list2 \8226 Perhaps you meant \8216list1\8217 (<no location info>)"
+2018-03-10 10:49:52 [ThreadId 11] ERROR phoityne - "error: \8226 Variable not in scope: list2 \8226 Perhaps you meant \8216list1\8217 (<no location info>)"
+2018-03-10 10:49:55 [ThreadId 11] ERROR phoityne - "error: \8226 Variable not in scope: list2 \8226 Perhaps you meant \8216list1\8217 (<no location info>)"
+2018-03-10 10:50:01 [ThreadId 11] ERROR phoityne - "error: \8226 Variable not in scope: list1 \8226 Perhaps you meant \8216list2\8217 (<no location info>)"
+2018-03-10 12:39:08 [ThreadId 11] ERROR phoityne - "\"extractSourcePosition\" (line 5, column 6):\nunexpected end of input\nexpecting \"Stopped at \" or \"Stopped in \" [INPUT]    \31572\26696:\n\nFinished in 46.6193 seconds\n8 examples, 0 failures\nH>>= "
+2018-03-10 12:39:30 [ThreadId 11] ERROR phoityne - "error: lexical error in string/character literal at end of input"
+2018-03-10 12:39:31 [ThreadId 11] ERROR phoityne - "error: lexical error in string/character literal at end of input"
+2018-03-10 12:39:34 [ThreadId 11] ERROR phoityne - "error: Variable not in scope: firstElmt"
+2018-06-14 09:14:28 [ThreadId 11] ERROR phoityne - "error: \8226 Variable not in scope: list2 \8226 Perhaps you meant \8216list\8217 (line 37)"
+2018-06-14 09:14:33 [ThreadId 11] ERROR phoityne - "error: \8226 Variable not in scope: list1 \8226 Perhaps you meant \8216list\8217 (line 37)"
+2018-06-14 09:14:35 [ThreadId 11] ERROR phoityne - "error: lexical error in string/character literal at end of input"
+2018-06-14 09:15:06 [ThreadId 11] ERROR phoityne - "error: Variable not in scope: firstElmt"
+2018-06-14 09:15:12 [ThreadId 11] ERROR phoityne - "error: Variable not in scope: firstElmt"
+2018-06-14 09:15:20 [ThreadId 11] ERROR phoityne - "\"extractSourcePosition\" (line 15, column 6):\nunexpected end of input\nexpecting \"Stopped at \" or \"Stopped in \" [INPUT]    \31572\26696:firstElmt ++ secondElmt\n\nFailures:\n\n  /Users/zjjfly/AtomProjects/HaskellApp/test/Ch03/BasicTypeSpec.hs:20: \n  1) Ch03.BasicType.\38382\39064:\26816\27979list\26159\21542\21482\26377\19968\20010\20803\32032 \31572\26696:not (null list) && null (tail list)\n       expected: False\n        but got: True\n\nRandomized with seed 242306440\n\nFinished in 17.6103 seconds\n8 examples, 1 failure\n*** Exception: ExitFailure 1\nH>>= "
+2019-02-02 13:55:56 [ThreadId 11] ERROR phoityne - 
+  New hackage module has been released.
+  `stack update` and `stack install phoityen-vscode`.
+ 
+ 
+2019-02-02 14:03:01 [ThreadId 11] ERROR phoityne - 
+  New hackage module has been released.
+  `stack update` and `stack install phoityen-vscode`.
+ 
+ 
+2019-02-02 14:03:26 [ThreadId 11] ERROR phoityne - 
+  New hackage module has been released.
+  `stack update` and `stack install phoityen-vscode`.
+ 
+ 
+2019-02-02 14:03:50 [ThreadId 11] ERROR phoityne - 
+  New hackage module has been released.
+  `stack update` and `stack install phoityen-vscode`.
+ 
+ 
+2019-02-02 14:04:10 [ThreadId 11] ERROR phoityne - 
+  New hackage module has been released.
+  `stack update` and `stack install phoityen-vscode`.
+ 
+ 
+2019-02-02 14:05:47 [ThreadId 11] ERROR phoityne - 
+  New hackage module has been released.
+  `stack update` and `stack install phoityen-vscode`.
+ 
+ 
+2019-02-02 14:06:46 [ThreadId 11] ERROR phoityne - 
+  New hackage module has been released.
+  `stack update` and `stack install phoityen-vscode`.
+ 
+ 
+2019-02-02 14:08:35 [ThreadId 11] ERROR phoityne - 
+  New hackage module has been released.
+  `stack update` and `stack install phoityen-vscode`.
+ 
+ 
+2019-02-02 14:09:29 [ThreadId 11] ERROR phoityne - 
+  New hackage module has been released.
+  `stack update` and `stack install phoityen-vscode`.
+ 
+ 
+2019-02-02 14:12:40 [ThreadId 11] ERROR phoityne - set entry breakpoint failed. [ERROR] set adhoc breakpoint failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs"),("Ch02.FunctionSpec","/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs"),("Ch03.BasicType","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch03/BasicType.hs"),("Ch03.BasicTypeSpec","/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch03/BasicTypeSpec.hs"),("Ch07.DataList","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataList.hs"),("Ch07.Modules","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/Modules.hs"),("Main","/var/folders/nh/xx94d3gn53x39h02n6pwpflr0000gn/T/ghc47050_0/ghc_1.hspp"),("SpecHelper","/Users/zjjfly/VSCodeWork/HaskellApp/test/SpecHelper.hs")] : <<DAP>>Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\"),(\"Ch02.FunctionSpec\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs\"),(\"Ch03.BasicType\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch03/BasicType.hs\"),(\"Ch03.BasicTypeSpec\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch03/BasicTypeSpec.hs\"),(\"Ch07.DataList\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataList.hs\"),(\"Ch07.Modules\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/Modules.hs\"),(\"Main\",\"/var/folders/nh/xx94d3gn53x39h02n6pwpflr0000gn/T/ghc47050_0/ghc_1.hspp\"),(\"SpecHelper\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/SpecHelper.hs\")]" : main : ("/Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs",FunctionBreakpoint {nameFunctionBreakpoint = "main", conditionFunctionBreakpoint = Nothing, hitConditionFunctionBreakpoint = Nothing})
+2019-02-02 14:12:49 [ThreadId 11] ERROR phoityne - set entry breakpoint failed. [ERROR] set adhoc breakpoint failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs"),("Ch02.FunctionSpec","/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs"),("Ch03.BasicType","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch03/BasicType.hs"),("Ch03.BasicTypeSpec","/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch03/BasicTypeSpec.hs"),("Ch07.DataList","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataList.hs"),("Ch07.Modules","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/Modules.hs"),("Main","/var/folders/nh/xx94d3gn53x39h02n6pwpflr0000gn/T/ghc47066_0/ghc_1.hspp"),("SpecHelper","/Users/zjjfly/VSCodeWork/HaskellApp/test/SpecHelper.hs")] : <<DAP>>Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\"),(\"Ch02.FunctionSpec\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs\"),(\"Ch03.BasicType\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch03/BasicType.hs\"),(\"Ch03.BasicTypeSpec\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch03/BasicTypeSpec.hs\"),(\"Ch07.DataList\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataList.hs\"),(\"Ch07.Modules\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/Modules.hs\"),(\"Main\",\"/var/folders/nh/xx94d3gn53x39h02n6pwpflr0000gn/T/ghc47066_0/ghc_1.hspp\"),(\"SpecHelper\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/SpecHelper.hs\")]" : main : ("/Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs",FunctionBreakpoint {nameFunctionBreakpoint = "main", conditionFunctionBreakpoint = Nothing, hitConditionFunctionBreakpoint = Nothing})
+2019-02-02 14:12:56 [ThreadId 11] ERROR phoityne - set entry breakpoint failed. [ERROR] set adhoc breakpoint failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs"),("Ch02.FunctionSpec","/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs"),("Ch03.BasicType","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch03/BasicType.hs"),("Ch03.BasicTypeSpec","/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch03/BasicTypeSpec.hs"),("Ch07.DataList","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataList.hs"),("Ch07.Modules","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/Modules.hs"),("Main","/var/folders/nh/xx94d3gn53x39h02n6pwpflr0000gn/T/ghc47082_0/ghc_1.hspp"),("SpecHelper","/Users/zjjfly/VSCodeWork/HaskellApp/test/SpecHelper.hs")] : <<DAP>>Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\"),(\"Ch02.FunctionSpec\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs\"),(\"Ch03.BasicType\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch03/BasicType.hs\"),(\"Ch03.BasicTypeSpec\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch03/BasicTypeSpec.hs\"),(\"Ch07.DataList\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataList.hs\"),(\"Ch07.Modules\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/Modules.hs\"),(\"Main\",\"/var/folders/nh/xx94d3gn53x39h02n6pwpflr0000gn/T/ghc47082_0/ghc_1.hspp\"),(\"SpecHelper\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/SpecHelper.hs\")]" : main : ("/Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs",FunctionBreakpoint {nameFunctionBreakpoint = "main", conditionFunctionBreakpoint = Nothing, hitConditionFunctionBreakpoint = Nothing})
+2019-02-02 14:13:22 [ThreadId 11] ERROR phoityne - set entry breakpoint failed. [ERROR] set adhoc breakpoint failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs"),("Ch02.FunctionSpec","/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs"),("Ch03.BasicType","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch03/BasicType.hs"),("Ch03.BasicTypeSpec","/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch03/BasicTypeSpec.hs"),("Ch07.DataList","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataList.hs"),("Ch07.Modules","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/Modules.hs"),("Main","/var/folders/nh/xx94d3gn53x39h02n6pwpflr0000gn/T/ghc47195_0/ghc_1.hspp"),("SpecHelper","/Users/zjjfly/VSCodeWork/HaskellApp/test/SpecHelper.hs")] : <<DAP>>Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\"),(\"Ch02.FunctionSpec\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs\"),(\"Ch03.BasicType\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch03/BasicType.hs\"),(\"Ch03.BasicTypeSpec\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch03/BasicTypeSpec.hs\"),(\"Ch07.DataList\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataList.hs\"),(\"Ch07.Modules\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/Modules.hs\"),(\"Main\",\"/var/folders/nh/xx94d3gn53x39h02n6pwpflr0000gn/T/ghc47195_0/ghc_1.hspp\"),(\"SpecHelper\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/SpecHelper.hs\")]" : main : ("/Users/zjjfly/VSCodeWork/HaskellApp/test/Spec.hs",FunctionBreakpoint {nameFunctionBreakpoint = "main", conditionFunctionBreakpoint = Nothing, hitConditionFunctionBreakpoint = Nothing})
+2019-02-02 14:15:45 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Show Spec) arising from a use of ‘print’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Show Spec) arising from a use of \8216print\8217\n"
+
+2019-02-02 14:16:22 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Show Spec) arising from a use of ‘print’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Show Spec) arising from a use of \8216print\8217\n"
+
+2019-02-02 14:17:54 [ThreadId 11] ERROR phoityne - ghci launch error. <file descriptor: 59>: hPutChar: resource vanished (Broken pipe)
+
+2019-02-02 14:17:54 [ThreadId 11] ERROR phoityne - [disconnectRequestHandler] ghci not started.
+2019-02-02 14:18:30 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Show Spec) arising from a use of ‘print’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Show Spec) arising from a use of \8216print\8217\n"
+
+2019-02-02 14:18:49 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Show Spec) arising from a use of ‘print’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Show Spec) arising from a use of \8216print\8217\n"
+
+2019-02-02 14:18:53 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Show Spec) arising from a use of ‘print’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Show Spec) arising from a use of \8216print\8217\n"
+
+2019-02-02 14:19:01 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Show Spec) arising from a use of ‘print’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Show Spec) arising from a use of \8216print\8217\n"
+
+2019-02-02 14:19:19 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Show Spec) arising from a use of ‘print’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Show Spec) arising from a use of \8216print\8217\n"
+
+2019-02-02 14:19:26 [ThreadId 11] ERROR phoityne - setBreakpointRequest failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs"),("Ch03.BasicType","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch03/BasicType.hs"),("Ch03.BasicTypeSpec","/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch03/BasicTypeSpec.hs"),("Ch07.DataList","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataList.hs"),("Ch07.Modules","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/Modules.hs"),("SpecHelper","/Users/zjjfly/VSCodeWork/HaskellApp/test/SpecHelper.hs")] : Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\"),(\"Ch03.BasicType\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch03/BasicType.hs\"),(\"Ch03.BasicTypeSpec\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/Ch03/BasicTypeSpec.hs\"),(\"Ch07.DataList\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataList.hs\"),(\"Ch07.Modules\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/Modules.hs\"),(\"SpecHelper\",\"/Users/zjjfly/VSCodeWork/HaskellApp/test/SpecHelper.hs\")]"
+
+2019-02-02 14:19:26 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Show Spec) arising from a use of ‘print’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Show Spec) arising from a use of \8216print\8217\n"
+
+2019-02-02 14:20:30 [ThreadId 11] ERROR phoityne - setBreakpointRequest failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs")] : Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\")]"
+
+2019-02-02 14:20:30 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Num String) arising from the literal ‘1’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Num String) arising from the literal \8216\&1\8217\n"
+
+2019-02-02 14:20:45 [ThreadId 11] ERROR phoityne - setBreakpointRequest failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs")] : Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\")]"
+
+2019-02-02 14:20:45 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Num String) arising from the literal ‘1’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Num String) arising from the literal \8216\&1\8217\n"
+
+2019-02-02 14:39:59 [ThreadId 11] ERROR phoityne - setBreakpointRequest failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs")] : Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\")]"
+
+2019-02-02 14:39:59 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Num String) arising from the literal ‘1’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Num String) arising from the literal \8216\&1\8217\n"
+
+2019-02-02 14:40:09 [ThreadId 11] ERROR phoityne - setBreakpointRequest failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs")] : Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\")]"
+
+2019-02-02 14:40:09 [ThreadId 11] ERROR phoityne - continueRequest failed. [DAP][ERROR] error occurred while runStmt.
+No instance for (Num String) arising from the literal ‘1’
+ : Left "[DAP][ERROR] error occurred while runStmt.\nNo instance for (Num String) arising from the literal \8216\&1\8217\n"
+
+2019-02-02 14:41:17 [ThreadId 11] ERROR phoityne - setBreakpointRequest failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs")] : Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\")]"
+
+2019-02-02 14:41:19 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. else : Left "Not in scope. else"
+
+2019-02-02 14:41:20 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. "empty : Left "Not in scope. \"empty"
+
+2019-02-02 14:42:16 [ThreadId 11] ERROR phoityne - setBreakpointRequest failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs")] : Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\")]"
+
+2019-02-02 14:43:41 [ThreadId 11] ERROR phoityne - setBreakpointRequest failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [("Ch02.Function","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs")] : Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [(\"Ch02.Function\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch02/Function.hs\")]"
+
+2019-02-02 14:44:04 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. then : Left "Not in scope. then"
+
+2019-02-02 14:45:43 [ThreadId 11] ERROR phoityne - setBreakpointRequest failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [("Ch07.DataChar","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataChar.hs")] : Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [(\"Ch07.DataChar\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataChar.hs\")]"
+
+2019-02-02 14:45:47 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. idx2Digit : Left "Not in scope. idx2Digit"
+
+2019-02-02 14:45:49 [ThreadId 11] ERROR phoityne - stackTraceRequestHandler failed. no stacktrace found. : Left "no stacktrace found."
+
+2019-02-02 14:46:02 [ThreadId 11] ERROR phoityne - setBreakpointRequest failed. [DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [("Ch07.DataChar","/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataChar.hs")] : Left "[DAP][ERROR] loaded module can not find from path. </Users/zjjfly/VSCodeWork/HaskellApp/test/Ch02/FunctionSpec.hs> [(\"Ch07.DataChar\",\"/Users/zjjfly/VSCodeWork/HaskellApp/src/Ch07/DataChar.hs\")]"
+
+2019-02-02 14:46:29 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. idx2Digit : Left "Not in scope. idx2Digit"
+
+2019-02-02 14:46:35 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. idx2Digit : Left "Not in scope. idx2Digit"
+
+2019-02-02 14:46:38 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. idx : Left "Not in scope. idx"
+
+2019-02-02 14:46:39 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. idx : Left "Not in scope. idx"
+
+2019-02-02 14:46:40 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. dig : Left "Not in scope. dig"
+
+2019-02-02 14:46:44 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. idx : Left "Not in scope. idx"
+
+2019-02-02 14:46:46 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. dig : Left "Not in scope. dig"
+
+2019-02-02 14:47:39 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. .. : Left "Not in scope. .."
+
+2019-02-02 14:47:40 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. sumDigitalPow : Left "Not in scope. sumDigitalPow"
+
+2019-02-02 14:47:47 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. equalSumDigitPow : Left "Not in scope. equalSumDigitPow"
+
+2019-02-02 14:47:54 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. sumDigitalPow : Left "Not in scope. sumDigitalPow"
+
+2019-02-02 14:48:00 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. dig : Left "Not in scope. dig"
+
+2019-02-02 14:48:18 [ThreadId 11] ERROR phoityne - evaluateRequestHandlerDAP failed. Not in scope. equalSumDigitPow : Left "Not in scope. equalSumDigitPow"
+
