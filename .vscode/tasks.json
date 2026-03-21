@@ -1,62 +1,119 @@
 {
-  // atuomatically created by phoityne-vscode
   "version": "2.0.0",
-  "runner": "terminal",
-  "windows": {
-    "command": "cmd",
-    "args": [
-      "/c"
-    ]
-  },
-  "linux": {
-    "command": "sh",
-    "args": [
-      "-c"
-    ]
-  },
-  "osx": {
-    "command": "sh",
-    "args": [
-      "-c"
-    ]
-  },
   "tasks": [
     {
-      "label": "stack build",
-      "args": [
-        "echo START_STACK_BUILD && cd ${workspaceRoot} && stack build && echo END_STACK_BUILD "
-      ],
+      "label": "Cabal: update index",
+      "type": "shell",
+      "command": "cabal",
+      "args": ["update"],
+      "group": "none",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
       "problemMatcher": []
     },
+
     {
-      "label": "stack clean & build",
-      "args": [
-        "echo START_STACK_CLEAN_AND_BUILD && cd ${workspaceRoot} && stack clean && stack build && echo END_STACK_CLEAN_AND_BUILD "
-      ],
-      "problemMatcher": [],
-      "group": "build"
+      "label": "Cabal: build (all)",
+      "type": "shell",
+      "command": "cabal",
+      "args": ["build", "--enable-tests", "--enable-benchmarks"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": ["$haskell-cabal"]
     },
+
     {
-      "label": "stack test",
-      "args": [
-        "echo START_STACK_TEST && cd ${workspaceRoot} && stack test && echo END_STACK_TEST "
-      ],
-      "problemMatcher": [],
-      "group": "test"
+      "label": "Cabal: build lib only",
+      "type": "shell",
+      "command": "cabal",
+      "args": ["build", "lib:${workspaceFolderBasename}"],
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": ["$haskell-cabal"]
     },
+
     {
-      "label": "stack watch",
-      "args": [
-        "echo START_STACK_WATCH && cd ${workspaceRoot} && stack build --file-watch --test --no-run-tests  && echo END_STACK_WATCH "
-      ],
-      "isBackground": true,
+      "label": "Cabal: test",
+      "type": "shell",
+      "command": "cabal",
+      "args": ["test", "--test-show-details=direct"],
+      "group": "test",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "clear": true
+      },
       "problemMatcher": []
     },
+
     {
-      "label": "stack repl",
-      "args": [
-        "stack repl ${file}"
-      ],
+      "label": "Cabal: run exe",
+      "type": "shell",
+      "command": "cabal",
+      "args": ["run"],
+      "group": "none",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+
+    {
+      "label": "Cabal: freeze dependencies",
+      "type": "shell",
+      "command": "cabal",
+      "args": ["freeze"],
+      "group": "none",
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    },
+
+    {
+      "label": "Cabal: clean",
+      "type": "shell",
+      "command": "cabal",
+      "args": ["clean"],
+      "group": "none",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+
+    {
+      "label": "Cabal: repl (library)",
+      "type": "shell",
+      "command": "cabal",
+      "args": ["repl", "lib:${workspaceFolderBasename}"],
+      "group": "none",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "new"
+      },
       "problemMatcher": []
     }
   ]

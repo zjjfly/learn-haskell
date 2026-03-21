@@ -1,8 +1,9 @@
 module Ch02.Function
-  ( firstOrEmpty
-  , (+++)
-  , reverse2
-  ) where
+  ( firstOrEmpty,
+    (+++),
+    reverse2,
+  )
+where
 
 firstOrEmpty :: [String] -> String
 firstOrEmpty lst =
@@ -10,7 +11,7 @@ firstOrEmpty lst =
     then head lst
     else "empty"
 
-infix +++
+infix 9 +++
 
 (+++) :: [a] -> [a] -> [a]
 lst1 +++ lst2 =
@@ -27,5 +28,5 @@ reverse2 lst =
     then []
     else reverse2 (tail lst) ++ [head lst]
 
---没有参数的函数称为定义,类似一个不可变的常量
+-- 没有参数的函数称为定义,类似一个不可变的常量
 conanOBrien = "It's a-me, Conan O'Brien!"

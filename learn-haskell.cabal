@@ -1,17 +1,17 @@
-name:                HaskellApp
-version:             0.1.0.0
+cabal-version:       3.8
+name:                learn-haskell
+version:             0.1.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/githubuser/HaskellApp#readme
-license:             BSD3
+homepage:            https://github.com/zjjfly/learn-haskell#readme
+license:             Apache-2.0
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2017 Author name here
-category:            Web
+author:              zjjfly
+maintainer:          zjjblue@gmail.com
+copyright:           2026 zjjfly
+category:            learning
 build-type:          Simple
 extra-source-files:  README.md
-cabal-version:       >=1.10
 
 library
   --如果source文件不是放在根目录的,需要告诉cabal它们的位置
@@ -23,32 +23,36 @@ library
                       ,Ch04.Case
                       ,Ch05.Recursion
                       ,Ch06.Lambda
+                      ,Ch07.DataList
                       ,Ch07.Modules
   --内部的模块
   -- other-modules:
-  build-depends:       base >= 4.7 && < 5
-                      ,containers >= 0.5.7.1
-  default-language:    Haskell2010
+  build-depends:       base ^>= 4.18
+                      ,containers ^>= 0.6.7
+  default-language:    GHC2021
 
  --executable或library的header会跟一个应用名,中间不需要冒号分隔
-executable HaskellApp-exe
+executable learn-haskell-exe
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
-                     , HaskellApp
-  default-language:    Haskell2010
+                     , learn-haskell
+  default-language:    GHC2021
 
-test-suite HaskellApp-test
+test-suite spec
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Spec.hs
-  build-depends:       base
-                     , hspec >= 2.4.4
-                     , HaskellApp
+  build-depends:       base ^>= 4.18
+                     , hspec ^>= 2.11
+                     , learn-haskell
+  other-modules:       Ch02.FunctionSpec
+                     , Ch03.BasicTypeSpec
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
-  default-language:    Haskell2010
+  build-tool-depends:  hspec-discover:hspec-discover
+  default-language:    GHC2021
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/HaskellApp
+  location: https://github.com/zjjfly/learn-haskell.git

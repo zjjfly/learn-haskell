@@ -1,6 +1,7 @@
 module Ch03.BasicTypeSpec where
 
-import SpecHelper
+import Ch03.BasicType
+import Test.Hspec
 
 spec :: Spec
 spec = do

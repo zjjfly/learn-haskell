@@ -12,7 +12,7 @@ findKey key xs = (snd . head . filter (\(k, _) -> key == k)) xs
 
 findKey' :: (Eq k) => k -> [(k, v)] -> Maybe v
 findKey' _ [] = Nothing
-findKey' key ((k, v):xs) =
+findKey' key ((k, v) : xs) =
   if key == k
     then Just v
     else findKey' key xs
@@ -21,10 +21,11 @@ findKey' key ((k, v):xs) =
 findKey'' :: (Eq k) => k -> [(k, v)] -> Maybe v
 findKey'' key =
   foldr
-    (\(k, v) acc ->
-       if k == key
-         then Just v
-         else acc)
+    ( \(k, v) acc ->
+        if k == key
+          then Just v
+          else acc
+    )
     Nothing
 
 -- 使用Data.Map中的函数更方便

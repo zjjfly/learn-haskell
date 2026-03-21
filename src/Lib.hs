@@ -1,7 +1,8 @@
 -- Haskell中的module和类型的首字母要大写
 module Lib
-  ( someFunc
-  ) where
+  ( someFunc,
+  )
+where
 
 someFunc :: IO ()
 someFunc = putStrLn "someFunc"

@@ -28,12 +28,12 @@ isNumberChar = isNumber 'Ⅷ'
 -- isAlpha判断是否是Unicode字母型字符,等价于isLetter函数
 isAlphaChar = isAlpha 'з'
 
-isAlphaChar' = isAlpha 'Ⅷ' --false
+isAlphaChar' = isAlpha 'Ⅷ' -- false
 
 -- isAlphaNum判断是否是Unicode字母
 isAlphaNumChar = isAlphaNum 'з'
 
-isAlphaNumChar' = isAlphaNum 'Ⅷ' --true
+isAlphaNumChar' = isAlphaNum 'Ⅷ' -- true
 
 -- isPrint判断是否是可打印的Unicode字符
 isPrintChar = isPrint 'ઋ'

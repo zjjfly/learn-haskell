@@ -1,1 +1,1 @@
-# HaskellApp
+# learn-haskell
