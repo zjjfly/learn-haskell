@@ -1,4 +1,4 @@
-module Ch02.DataType where
+module Ch03.DataType where
 
 -- data type,类似Java中的class
 -- 下面的data type声明了三个构造器,对应政府组织,公司,个人,每个构造器用|分隔

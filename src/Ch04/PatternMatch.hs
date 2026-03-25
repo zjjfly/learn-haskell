@@ -46,17 +46,17 @@ sumPair xs = [a + b | (a, b) <- xs]
 head' :: [a] -> a
 head' [] = error "Can't call head on an empty list, dummy!"
 head' (x : _) = x -- 要绑定多个变量,需要使用括号括起来
-head' [x, _] = x -- 上面模式的另一种写法
+-- 上面模式的另一种写法
+-- head' [x, _] = x 
 
 -- 使用模式匹配实现length
-length' :: (Integral t) => [t1] -> t
+length' :: (Integral t) => [a] -> t
 length' [] = 0
 length' (_ : xs) = 1 + length' xs
 
 -- 使用模式匹配实现sum
 sum' :: (Num a) => [a] -> a
-sum' [] = 0
-sum' (x : xs) = x + sum' xs
+sum' xs = foldr (+) 0 xs
 
 -- 在模式匹配中使用@,和Scala类似
 capital :: String -> String

@@ -1,4 +1,4 @@
-module Tuple
+module Ch02.Tuple
   ( maxmin,
   )
 where

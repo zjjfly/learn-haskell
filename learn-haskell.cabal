@@ -25,6 +25,22 @@ library
                       ,Ch06.Lambda
                       ,Ch07.DataList
                       ,Ch07.Modules
+  other-modules:       Ch02.List
+                      ,Ch02.Tuple
+                      ,Ch03.DataType
+                      ,Ch04.Guard
+                      ,Ch04.Let
+                      ,Ch04.PatternMatch
+                      ,Ch04.Where
+                      ,Ch06.DollarDot
+                      ,Ch06.HighOrdFunction
+                      ,Ch07.DataChar
+                      ,Ch07.DataMap
+                      ,Ch07.DataSet
+                      ,Ch08.AlgebraicDataType
+                      ,Ch08.Record
+                      ,Ch08.TypeParameter
+
   --内部的模块
   -- other-modules:
   build-depends:       base ^>= 4.18

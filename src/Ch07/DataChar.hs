@@ -89,3 +89,6 @@ encode shift msg = map chr shifted
   where
     ords = map ord msg
     shifted = map (+ shift) ords
+
+xyz :: Int -> Int -> Int
+xyz x y = x + y
