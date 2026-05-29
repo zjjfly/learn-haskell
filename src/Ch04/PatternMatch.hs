@@ -17,10 +17,10 @@ factorial :: (Integral a) => a -> a
 factorial 0 = 1
 factorial x = x * factorial (x - 1)
 
--- 如果匹配不是很全面,会报错
-charName 'a' = "Albert"
-charName 'b' = "Broseph"
-charName 'c' = "Cecil"
+-- 如果匹配不是很全面,会报错,例子:
+-- charName 'a' = "Albert"
+-- charName 'b' = "Broseph"
+-- charName 'c' = "Cecil"
 
 -- 所以,模式匹配最后一定要有一个万能的模式
 -- 模式匹配的用法

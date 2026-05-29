@@ -1,10 +1,10 @@
 module Ch06.Lambda where
 
 chain :: (Integral a) => a -> [a]
-chain 1 = [1]
 chain x
+  | x == 1 = [1]
   | even x = x : chain (x `div` 2)
-  | odd x = x : chain (x * 3 + 1)
+  | otherwise = x : chain (x * 3 + 1)
 
 -- lambda以\开头,之后是空格分隔的参数,然后是箭头和函数体
 numLongChain :: Int
@@ -12,7 +12,7 @@ numLongChain = length (filter (\xs -> length xs > 15) (map chain [1 .. 100]))
 
 -- 但由于Haskell的函数式的特点,其实不用像java和scala那样写很多lambda,而是用柯里化函数
 -- 可以在lambda中使用模式匹配,和scala类似
-sumPair = map (\(a, b) -> a + b) [(1, 2), (3, 5), (6, 3), (2, 6), (2, 5)]
+sumPair = map (uncurry (+)) [(1, 2), (3, 5), (6, 3), (2, 6), (2, 5)]
 
 -- 可以使用lambda让我们之前自己实现的flip函数跟容易理解
 flip' :: (a -> b -> c) -> b -> a -> c

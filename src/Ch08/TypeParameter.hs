@@ -12,18 +12,18 @@ data Vector a
       a
       a
       a
-  deriving (Show)
+  deriving Show
 
 -- 类型约束最适合的地方是函数声明,例如下面这几个函数
-vplus :: (Num t) => Vector t -> Vector t -> Vector t
+vplus :: Num t => Vector t -> Vector t -> Vector t
 (Vector i j k) `vplus` (Vector l m n) =
   Vector (i + l) (j + m) (k + n)
 
-vectMult :: (Num t) => Vector t -> t -> Vector t
+vectMult :: Num t => Vector t -> t -> Vector t
 (Vector i j k) `vectMult` m =
   Vector (i * m) (j * m) (k * m)
 
-scalarMult :: (Num t) => Vector t -> Vector t -> t
+scalarMult :: Num t => Vector t -> Vector t -> t
 (Vector i j k) `scalarMult` (Vector l m n) = i * l + j * m + k * n
 
 -- 这三个函数的只有一个类型约束,所有传递给它们的Vector中的元素类型必须是一致的

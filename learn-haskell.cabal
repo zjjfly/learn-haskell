@@ -13,7 +13,17 @@ category:            learning
 build-type:          Simple
 extra-source-files:  README.md
 
+common warnings
+    ghc-options: -Wall -Werror=incomplete-patterns
+    default-extensions:
+        OverloadedStrings
+        OverloadedRecordDot
+        DuplicateRecordFields
+        NoFieldSelectors
+        StrictData
+
 library
+  import:           warnings
   --如果source文件不是放在根目录的,需要告诉cabal它们的位置
   hs-source-dirs:      src
   --暴露给其他工厂的module
@@ -40,6 +50,9 @@ library
                       ,Ch08.AlgebraicDataType
                       ,Ch08.Record
                       ,Ch08.TypeParameter
+                      ,Ch08.TypeClass
+                      ,Ch08.TypeAlias
+                      ,Ch08.RecursiveDataStructure
 
   --内部的模块
   -- other-modules:
@@ -49,6 +62,7 @@ library
 
  --executable或library的header会跟一个应用名,中间不需要冒号分隔
 executable learn-haskell-exe
+  import:           warnings
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
@@ -57,6 +71,7 @@ executable learn-haskell-exe
   default-language:    GHC2021
 
 test-suite spec
+  import:           warnings
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Spec.hs

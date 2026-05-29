@@ -23,6 +23,9 @@ bmiTell' weight height
 
 -- where绑定不会再多个模式中共享,如果需要在多个模式中共享变量,就要把它放在全局中
 initials :: String -> String -> String
+initials "" "" = ""
+initials (x : _) "" = x : "."
+initials "" (y : _) = "." ++ [y]
 initials (x : _) (y : _) = [x] ++ "." ++ [y]
 
 -- where还可以定义函数

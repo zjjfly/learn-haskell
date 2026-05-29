@@ -1,3 +1,4 @@
+{- HLINT ignore "Use unwords" -}
 module Ch07.DataList where
 
 import Data.Function as F
@@ -8,8 +9,8 @@ import Data.Set qualified as S
 -- intersperse取一个值和一个列表,把这个值插入列表的每两个元素之间
 intersperseByDot = L.intersperse '.' "Monkey" -- "M.o.n.k.e.y"
 
--- intercalate接受两个参数,一个[a]和一个元素是[[a]],它在这些[a]中插入第一个参数,
--- 最后返回的也是一个[a].很适合用于把一个字符串List转换成一个用特定分隔符拼接起来的字符串
+-- intercalate接受两个参数,一个[a]和一个是[[a]],它在这些[a]中插入第一个参数,
+-- 最后返回的也是一个[a].很适合用于把一个字符串List转换成一个用特定分隔符拼接起来的字符串，但实际上使用unwords更简单
 intercalateByBlank = L.intercalate " " ["hey", "there", "guys"] -- "hey there guys"
 
 -- unwords = intercalate " "的简写
@@ -87,6 +88,7 @@ groupList = L.group nums -- [[1,1,1,1],[2,2,2,2],[3,3],[2,2,2],[5],[6],[7]]
 countElement = map counter sorted
   where
     counter l@(x : _) = (x, length l)
+    counter [] = error "empty list"
     sorted = L.group $ L.sort nums
 
 -- inits和tails和init和tail类似,只是会递归的调用自身,直到List中没有元素,可以用于实现正向最大匹配和反向最大匹配

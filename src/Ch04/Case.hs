@@ -1,5 +1,7 @@
 module Ch04.Case where
 
+import Data.Sequence (Seq (Empty))
+
 -- Haskell也有case语法,用于对变量进行模式匹配
 -- 函数参数的模式匹配实际上就是case的语法糖
 head' :: [a] -> a
@@ -27,3 +29,8 @@ describeList' xs = "This list is " ++ what xs
     what [] = "empty."
     what [_] = "a single list."
     what _ = "a longer list."
+
+data Tree a
+  = Empty
+  | Node a (Tree a) (Tree a)
+  deriving (Show, Eq)

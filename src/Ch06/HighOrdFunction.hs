@@ -69,10 +69,10 @@ squareSum = sum (takeWhile (< 10000) (filter odd (map (^ 2) [1 ..])))
 
 -- 考拉咨序列
 chain :: (Integral a) => a -> [a]
-chain 1 = [1]
 chain x
+  | x == 1 = [1]
   | even x = x : chain (x `div` 2)
-  | odd x = x : chain (x * 3 + 1)
+  | otherwise = x : chain (x * 3 + 1)
 
 -- x小于100的时候长度大于15的链个数
 biggerThanFifty = length (filter isLong (map chain [1 .. 100]))
@@ -82,6 +82,7 @@ biggerThanFifty = length (filter isLong (map chain [1 .. 100]))
 -- map也可以用来生成一组函数
 listOfFuns = map (*) [0 ..]
 
+multipleFive :: Integer
 multipleFive = (listOfFuns !! 4) 5
 
 -- 一个codewars的习题

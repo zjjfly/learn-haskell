@@ -42,7 +42,7 @@ isPrintChar = isPrint 'ઋ'
 isOctDigitChar = isOctDigit '7'
 
 -- isHexDigit判断是否是十六进制字符
-isHexChar = and [C.isHexDigit 'f', C.isHexDigit 'A']
+isHexChar = C.isHexDigit 'f' && C.isHexDigit 'A'
 
 -- isLetter判断是否是字母,等价于isAlpha
 isLetterChar = C.isLetter 'a'
@@ -54,7 +54,7 @@ isPunctuationChar = C.isPunctuation ','
 isSymbolChar = C.isSymbol '$'
 
 -- 判断是否是unicode的空格或分隔符
-isSeparatorChar = and [C.isSeparator ' ', C.isSeparator '\160']
+isSeparatorChar = C.isSeparator ' ' && C.isSeparator '\160'
 
 -- 判断是否是unicode字母表的前128位
 isAsciiChar = C.isAscii 'X'
@@ -91,4 +91,7 @@ encode shift msg = map chr shifted
     shifted = map (+ shift) ords
 
 xyz :: Int -> Int -> Int
-xyz x y = x + y
+xyz x y =
+  let a = x + y
+      b = x * y
+   in a * b

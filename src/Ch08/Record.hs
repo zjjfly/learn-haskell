@@ -24,3 +24,8 @@ data Car = Car
   deriving (Show)
 
 -- Car {company="Ford", model="Mustang", year=1967}
+
+main2 :: IO ()
+main2 = do
+  let car = Car {company = "", model = "Mustang", year = 1967}
+  print $ car.company ++ "xx"

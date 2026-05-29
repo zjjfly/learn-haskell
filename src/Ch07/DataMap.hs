@@ -47,10 +47,11 @@ fromList' = foldr (\(k, v) acc -> M.insert k v acc) M.empty
 -- 判断是否是空Map
 isEmpty = M.null M.empty
 
+phoneMap :: M.Map String String
 phoneMap = M.fromList phoneBook
 
 -- 返回Map的size
-mapSize = M.size $ phoneMap
+mapSize = M.size phoneMap
 
 -- 初始化一个单个元素的Map
 singleElemMap = M.singleton 1 2
@@ -64,7 +65,7 @@ isMember = M.member "jjzi" phoneMap
 -- map和filter,都是针对value的
 mapped = M.map (* 10) $ M.fromList [(1, 2), (3, 4)]
 
-filtered = M.filter (isUpper) $ M.fromList [(1, 'a'), (2, 'B')]
+filtered = M.filter isUpper $ M.fromList [(1, 'a'), (2, 'B')]
 
 -- toList,fromList的反函数
 list = M.toList $ M.insert 1 2 M.empty
